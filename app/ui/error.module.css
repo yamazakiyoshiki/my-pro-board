@@ -1,0 +1,25 @@
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  gap: 30px;
+}
+
+.container button{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: teal;
+  color: var(--text);
+}
+
+@media screen and (max-width:450px) {
+  .container button{
+    width: 40%;
+  }
+  /*=======max-width:450px========*/
+}

@@ -1,0 +1,56 @@
+.container{
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form input,
+.form textarea,
+.form select {
+  padding: 30px;
+  background-color: var(--bg);
+  color: var(--text);
+  border: 2px solid #2e374a;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.form input, .form select {
+  width: 45%;
+}
+
+.form textarea{
+  width: 100%;
+}
+
+.form button{
+  width: 100%;
+  padding: 30px;
+  background-color: teal;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:450px) {
+  .form input,
+  .form textarea,
+  .form select{
+    padding: 15px;
+  }
+  .form button{
+    width: 150px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*=======max-width:450px========*/
+}

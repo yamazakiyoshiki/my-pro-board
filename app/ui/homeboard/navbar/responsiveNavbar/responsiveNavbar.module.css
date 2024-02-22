@@ -1,0 +1,12 @@
+.container{
+  width: 100%;
+}
+
+.container button{
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: inherit;
+  cursor: pointer;
+}

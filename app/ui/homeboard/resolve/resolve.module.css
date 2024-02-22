@@ -1,0 +1,102 @@
+.container{
+  width: 100%;
+  display: flex;
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.problem{
+  width: 100%;
+  height: 100%;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.level{
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.A{
+  background-color: rgb(154, 55, 55);
+}
+
+.B{
+  background-color: rgb(170, 170, 76);
+}
+
+.C{
+  background-color: #10dd5f;
+}
+
+.desc{
+  padding: 30px;
+  background-color: var(--bg);
+  color: var(--text);
+  border: 2px solid #2e374a;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  justify-content: center;
+  letter-spacing: 4px;
+}
+
+.cat{
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.TypeScript{
+  background-color: rgba(122, 48, 218, 0.369);
+  color: #82ca9d
+}
+
+.JavaScript{
+  background-color: #e4f471aa;
+  color: #8884d8;
+}
+
+.React{
+  background-color: rgb(88, 90, 245);
+  color: #cac382;
+}
+
+.Vue{
+  background-color: #67da88e4;
+  color: #7f4747d4;
+}
+
+.NextJs{
+  background-color: cadetblue;
+  color: #2e374ad2;
+}
+
+.NuxtJs{
+  background-color: bisque;
+  color: #2e374aa9;
+}
+
+@media screen and (max-width:450px) {
+  .header{
+    word-break: break-all;
+    overflow-wrap: break-word;
+  }
+  .header h1{
+    width: 150px;
+  }
+  .level{
+    width: 90px;
+  }
+  .cat{
+    width: 90px;
+  }
+  /*=======max-width:450px========*/
+}

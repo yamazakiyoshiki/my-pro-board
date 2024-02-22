@@ -1,0 +1,89 @@
+.container{
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.container h2{
+  color: #b266cb;
+}
+
+.loginButton{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 20%;
+  color: var(--text);
+  background-color: rgba(29, 114, 133, 0.748);
+  text-align: center;
+}
+
+.container p{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: rosybrown;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form input,
+.form textarea{
+  padding: 30px;
+  background-color: var(--bg);
+  color: var(--text);
+  border: 2px solid #2e374a;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.form input{
+  width: 45%;
+}
+
+.form textarea{
+  width: 100%;
+}
+
+.form button{
+  width: 30%;
+  padding: 30px;
+  background-color: teal;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width:450px) {
+  .loginButton{
+    width: 30%;
+  }
+  .form button{
+    width: 200px;
+    padding: 20px;
+  }
+  .errMessage{
+    margin-top: 20px;
+    position: static;
+  }
+  .errMessage p{
+    text-align: center;
+  }
+  /*=======max-width:700px========*/
+}

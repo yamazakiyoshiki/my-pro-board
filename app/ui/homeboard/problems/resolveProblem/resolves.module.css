@@ -1,0 +1,46 @@
+.container{
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table{
+  width: 100%;
+}
+
+.table td{
+  padding: 10px;
+}
+
+.problem{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.button{
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--text);
+  border: none;
+  cursor: pointer;
+  background-color: teal;
+}
+
+@media screen and (max-width:450px) {
+  .spHidden{
+    display: none;
+  }
+  .button{
+    width: 90px;
+  }
+  /*=======max-width:450px========*/
+}

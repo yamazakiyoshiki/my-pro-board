@@ -1,0 +1,47 @@
+.container{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--bgSoft);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #2e374a;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input{
+  background-color: transparent;
+  border: none;
+  color: var(--text);
+}
+
+.icons{
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width:450px) {
+  .container{
+    width: 100%;
+  }
+  .menu{
+    width: 100%;
+    justify-content: end;
+  }
+  .title{
+    display: none;
+  }
+  /*=======max-width:600px========*/
+}
